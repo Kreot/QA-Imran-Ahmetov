@@ -1,6 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 * {
@@ -8,7 +9,7 @@ body {
     margin: 0;
 }
 
-ol , ul , li {
+ol , ul , li , a {
     text-decoration: none;
     list-style-type: none;
 }
@@ -16,4 +17,6 @@ ol , ul , li {
     --font-700--: 700;
     --font-400--: 400;
     --bg-primary-color--:#23A6F0;
+    --main-text-color--: #252B42;
+    --second-text-color--: #737373;
 }

@@ -2,6 +2,7 @@ body {
     background-image: url(./png/background.png);
     padding: 0 202px 0 197px;
     background-repeat: no-repeat;
+    height: 1639px;
 }
 
 .header {
@@ -25,6 +26,10 @@ body {
     padding: 0 200px 0 83px;
     justify-content: space-around;
     gap: 20px;
+}
+
+.header__menu-item {
+    color: #fff;
 }
 
 .btns {
@@ -93,8 +98,107 @@ body {
     margin: 0 auto;
     border: 0;
     cursor: pointer;
+    color: #fff;
 }
 
-.join:active , .participate:active {
+.join:active , .participate:active , .btn-subscribe:active{
     background-color: #146adb;
+}
+
+.info__section {
+    position: absolute;
+}
+
+.cards {
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    width: 1046px;
+}
+
+.card__info {
+    width: 328px;
+    height: 292px;
+    background-color: #fff;
+    color: var(--main-text-color--);
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+
+.card__inside-padding {
+    padding:35px 40px 35px 40px;
+}
+.card__info-title {
+    font-weight: var(--font-700--);
+    font-size: 16px;
+    line-height: 24px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.line {
+    width: 50px;
+    height: 2px;
+    background-color: #E74040;
+}
+
+.card__info-subtitle {
+    color: var(--second-text-color--);
+    font-weight: var(--font-400--);
+    padding-top: 20px;
+}
+
+.logIn {
+    padding:129px 160px 75px 160px;
+    position: relative;
+}
+
+.email {
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px 0 0 5px;
+    height: 20px;
+    width: 600px;
+    padding: 15px 0 15px 20px;
+}
+
+.btn-subscribe {
+    height: 52px;
+    width: 117px;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+    border: 0;
+    background: transparent;
+    background-color: var(--bg-primary-color--);
+    position: absolute;
+}
+
+.footer__menu {
+    display: flex;
+    padding-top: 750px;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.item__title {
+    font-weight: var(--font-700--);
+    color: var(--main-text-color--);
+    padding-bottom:10px ;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item__social {
+    padding-top: 16px;
+    display: flex;
+    gap: 22px;
+}
+
+.item {
+    font-weight: var(--font-700--);
+    color: var(--second-text-color--);
 }
