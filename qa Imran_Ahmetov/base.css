@@ -1,0 +1,19 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ol , ul , li {
+    text-decoration: none;
+    list-style-type: none;
+}
+:root {
+    --font-700--: 700;
+    --font-400--: 400;
+    --bg-primary-color--:#23A6F0;
+}
